@@ -1,0 +1,18 @@
+{
+  "name": "html-tailwind-project",
+  "version": "1.0.0",
+  "description": "A simple HTML project using Tailwind CSS to interact with the Gemmini API.",
+  "main": "src/script.js",
+  "scripts": {
+    "build": "tailwindcss build src/styles.css -o dist/styles.css",
+    "start": "live-server src"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
