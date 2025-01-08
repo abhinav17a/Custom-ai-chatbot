@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Custom AI Chatbot</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
   <style>
     html, body {
       height: 100%;
@@ -81,7 +82,14 @@
 <body>
   <div class="chat-container">
     <h1 id="chatTitle" class="chat-title">Custom AI Chatbot</h1>
+    
+    <!-- Chatbot response area -->
     <div id="result" class="chat-result"></div>
+    
+    <!-- Control section for buttons (e.g., Read Button) -->
+    <div id="controlDiv" class="mt-2"></div>
+
+    <!-- Input and interaction area -->
     <div class="chat-input-container">
       <input type="text" id="userInput" class="chat-input" placeholder="Ask something..." required>
       <button id="voiceInputButton" class="svg-button" aria-label="Voice Input">
@@ -92,7 +100,7 @@
       <button class="chat-button">Send</button>
     </div>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
-
