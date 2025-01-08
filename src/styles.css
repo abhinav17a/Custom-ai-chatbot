@@ -10,3 +10,29 @@ body {
 #result.show {
     opacity: 1;
 }
+
+.read-button, .stop-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.stop-button {
+    background-color: #f44336; /* Red for "Stop" button */
+}
+
+.read-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.stop-button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
